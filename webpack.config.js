@@ -9,7 +9,7 @@ module.exports = {
 			exclude: /(node_modules|bower_components)/,
 			loader: 'babel-loader',
 			query: {
-				presets: ["es2016", 'es2015', 'react']
+				presets: ['es2015', 'react']
 			}
 		}]
 	}
