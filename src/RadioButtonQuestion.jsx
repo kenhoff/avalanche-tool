@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react'
 
-class Question extends React.Component {
+class RadioButtonQuestion extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -40,8 +40,8 @@ class Question extends React.Component {
 	}
 }
 
-Question.propTypes = {
+RadioButtonQuestion.propTypes = {
 	question: PropTypes.object.isRequired
 }
 
-export default Question;
+export default RadioButtonQuestion;
